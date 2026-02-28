@@ -47,7 +47,8 @@ class Route:
         self.end_point = end_point
         self.distance = distance
 
-    def route_    
+    def route_info(self):
+        return f"Route {self.route_number}: {self.start_point} -> {self.end_point}"   
     
             
                     
